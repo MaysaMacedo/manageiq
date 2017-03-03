@@ -6307,7 +6307,7 @@
       :description: Display Individual Physical Server
       :feature_type: view
       :identifier: physical_server_show
-- :name: Operate
+  - :name: Operate
     :description: Perform Operations on Physical Servers
     :feature_type: control
     :identifier: physical_server_control
