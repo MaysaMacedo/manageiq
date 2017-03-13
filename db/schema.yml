@@ -66,6 +66,12 @@ arbitration_settings:
 - value
 - created_on
 - updated_on
+assets_details:
+- description
+- location
+- room_id
+- rack_name
+- lowest_rack_unit
 assigned_server_roles:
 - id
 - miq_server_id
@@ -6130,8 +6136,6 @@ physical_servers:
 - name
 - type
 - uid_ems
-- support_contact
-- description
 - ems_ref
 - created_at
 - updated_at
