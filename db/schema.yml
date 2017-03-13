@@ -67,6 +67,7 @@ arbitration_settings:
 - created_on
 - updated_on
 assets_details:
+- id
 - description
 - location
 - room_id
