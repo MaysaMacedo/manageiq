@@ -6138,6 +6138,7 @@ physical_servers:
 - type
 - uid_ems
 - ems_ref
+- assets_details_id
 - created_at
 - updated_at
 pictures:
