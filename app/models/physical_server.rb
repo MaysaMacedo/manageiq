@@ -20,6 +20,8 @@ class PhysicalServer < ApplicationRecord
   has_one :hardware, :through => :computer_system
   has_one :host, :inverse_of => :physical_server
   has_one :asset_details, :as => :resource, :dependent => :destroy
+  has_many :policy_events, -> { where(["target_id = ? OR target_class = 'PhysicalServer'", id]).order(:timestamp) }, :class_name => "PolicyEvent"
+
 
   def name_with_details
     details % {

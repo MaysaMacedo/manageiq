@@ -908,7 +908,7 @@
     - :name: Delete Flavor
       :description: Delete Flavor
       :feature_type: control
-      :identifier: flavor_delete   
+      :identifier: flavor_delete
 
 # EmsInfra
 - :name: Infrastructure Providers
@@ -6350,7 +6350,22 @@
       :description: Refresh relationships and power states for all items related to Physical Servers / Nodes
       :feature_type: control
       :identifier: physical_server_refresh
-
+    - :name: Check Compliance
+      :description: Check Compliance of Last Known Configuration
+      :feature_type: control
+      :identifier: physical_server_check_compliance
+    - :name: Manage Policies
+      :description: Manage Policies on Physical Server
+      :feature_type: control
+      :identifier: physical_server_protect
+    - :name: Policy Simulation
+      :description: View Policy Simulation of Physical Server
+      :feature_type: control
+      :identifier: physical_server_policy_sim
+    - :name: Edit Tags
+      :description: Edit Instance Tags
+      :feature_type: control
+      :identifier: physical_server_tag
 # Firmwares
 - :name: Firmwares
   :description: Everything under Firmware
